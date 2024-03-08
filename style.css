@@ -123,6 +123,30 @@ main {
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
 }
 
+.instructions {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #444;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1.35rem;
+  font-weight: bold;
+  transition: all 0.2s;
+
+  background-color: rgb(255, 255, 255);
+  /* background-color: rgba(232, 255, 150, 0.6); */
+  background-color: #ba90c9;
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 2.5rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 9px;
+}
+
 .btn::first-letter {
   font-size: 2.4rem;
   display: inline-block;
@@ -130,7 +154,7 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  top: 9.3rem;
 }
 .btn--roll {
   top: 39.3rem;
