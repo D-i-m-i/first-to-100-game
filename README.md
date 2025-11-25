@@ -4,3 +4,5 @@ TECH STACK
 - JavaScript
 - HTML
 - CSS
+
+Built as part of Jonas' Course 'The Complete JavaScript Course 2025: From Zero to Expert!'
